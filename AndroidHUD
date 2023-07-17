@@ -1,0 +1,18 @@
+link: 
+    (Using ADB) https://www.youtube.com/watch?v=bBmmguO_gKU&t=62s
+    (Installing ADB) https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbndTdUhzUzlmZEVHUFNDbW5UZHN0aE5IM0sxUXxBQ3Jtc0ttV240NGhkRnEtV00zTWxYaThEM0VDTXRORkZEWXdsYWpCeEU2Y1lTTzdMbE9mVi1rU3dGUUlmY2tEQ1VuOF9LamRGdmFjLUFoaXdWbEZFemdoUEhtcjlQRG1qRFhNbEVLZEVpNmtDZ1c2cTdJcDNGdw&q=https%3A%2F%2Fandroiddatahost.com%2Fwp-content%2Fuploads%2FMinimal_ADB_Fastboot_v1.4.3.zip&v=bBmmguO_gKU
+
+Phone:
+  Developer mode > Turn on USB debugging 
+  Open Android Auto through settings > Connected devices > top three buttons at top right of screen > Start head unit server
+
+PC: 
+  Install android stuio
+  Ctrl + Alt + S > SDK tools > install Android Auto API Simulator & Android Auto Dekstop Head Unit Emulator
+
+How to use: 
+  Connect phone with usb to PC
+  run ADB software and type
+    adb devices
+    adb forward tcp:5277 tcp:5277
+  run desktop head unit.exe 

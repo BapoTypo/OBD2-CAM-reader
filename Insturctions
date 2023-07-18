@@ -9,10 +9,9 @@ Phone:
 PC: 
   Install android stuio
   Ctrl + Alt + S > SDK tools > install Android Auto API Simulator & Android Auto Dekstop Head Unit Emulator
+  Install ADB from link
+  in C:\Users\Username\AppData\Local\Android\Sdk\extras\google\auto\config change default content to "CopyThis" content. Then save
 
 How to use: 
   Connect phone with usb to PC
-  run ADB software and type
-    adb devices
-    adb forward tcp:5277 tcp:5277
-  run desktop head unit.exe 
+  run ParloUI.bat

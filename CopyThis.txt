@@ -1,0 +1,20 @@
+[general]
+touch = true
+touchpad = false
+controller = true
+instrumentcluster = false
+resolution = 1920x1080
+margins = 0,0,550,0
+contentinsets = 0,0,0,0
+stablecontentinsets = 0,0,0,0
+cropmargins = false
+dpi = 160
+framerate = 60
+
+[sensors]
+location = true
+night_mode = true
+driving_status = true
+phonecluster = true
+navcluster = true
+playbackstatus = true

@@ -11,4 +11,4 @@ adb forward tcp:5277 tcp:5277
 
 REM Executes Android auto
 cd "C:/Users/Taken/AppData/Local/Android/Sdk/extras/google/auto"
-desktop-head-unit.exe
+start desktop-head-unit.exe -c C:\Users\Taken\AppData\Local\Android\Sdk\extras\google\auto\config\default.ini 
